@@ -1,19 +1,28 @@
 body {
-    background-color: #ffffff; /* Белый фон */
-    color: #000000; /* Черный текст */
+    background-color: #f0f0f0; /* Светлый фон */
+    color: #333; /* Тёмный текст */
+    font-family: Arial, sans-serif; /* Шрифт */
+    margin: 0;
+    padding: 20px;
 }
 
-button, .btn {
-    background-color: #f0f0f0; /* Светлый фон для кнопок */
-    color: #000000; /* Темный текст на кнопках */
-    border: 1px solid #ccc; /* Светлая рамка */
-    border-radius: 5px; /* Скругленные углы для лучшего вида */
-    padding: 10px; /* Отступы кнопок */
+h1, h2, h3 {
+    color: #444; /* Более тёмные заголовки */
 }
 
-/* Дополнительные стили для ссылок */
 a {
     color: #007bff; /* Цвет ссылок */
+    text-decoration: none; /* Без подчеркивания */
 }
 
-/* Прочие необходимые стили для интерфейса */
+button {
+    background-color: #fff; /* Белые кнопки */
+    color: #333; /* Тёмный текст на кнопках */
+    border: 1px solid #ccc; /* Серый бордер */
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e6e6e6; /* Светло-серый при наведении */
+}
